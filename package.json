@@ -1,0 +1,33 @@
+{
+  "name": "react-routing-2",
+  "version": "1.0.0",
+  "description": "Создайте первый компонент, который принимает адрес в виде строки и массив имен. На основе массива имен создает список ссылок, каждая ссылка отправляет имя на переданный адрес через параметр :name.\r Создайте второй компонент, которые получает параметр навигации name и выводит его на экран синим цветом.\r Настройте маршрутизацию и запустите проект с массивом из трех имен. В итоге на экране должны быть три ссылки, которые создает первый компонент. Переходя по любой из ссылок, должен происходить переход на второй компонент, которые выведет имя на экран.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/React-routing-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/React-routing-2/issues"
+  },
+  "homepage": "https://github.com/splean101/React-routing-2#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
